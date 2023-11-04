@@ -1,0 +1,8 @@
+[package]
+name = "matrix"
+lang = "c++"
+
+[profile]
+compiler = "g++"
+src = [ "src/**/*.cpp" ]
+include = [ "src" ]
