@@ -2,7 +2,7 @@
 name = "matrix"
 lang = "c++"
 
-[profile]
+[target.x86_64-windows-64]
 compiler = "g++"
 src = [ "src/**/*.cpp" ]
 include = [ "src" ]
